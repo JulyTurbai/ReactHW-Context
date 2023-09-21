@@ -3,8 +3,6 @@ import Planet from './Planet';
 import BackgroundChanger from '../components/BackgroundChanger';
 import { MyContextProvider2 } from '../Context/MyContextProvider2';
 
-
-
 const Planets = () => {
     
     return (
