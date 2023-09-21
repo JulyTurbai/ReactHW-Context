@@ -1,17 +1,18 @@
 import { createContext } from 'react';
-
-
-const MyContext = createContext();
+const MySecondContext = createContext();
 
 const MyContextProvider2 = ({ children }) => {
-    const changeBackground = 'https://w.forfun.com/fetch/b5/b5c0e9f76acf57d53334eb195eb5304a.jpeg'
+    const changeBackground = {
+        img:'https://w.forfun.com/fetch/b5/b5c0e9f76acf57d53334eb195eb5304a.jpeg'
+    }
+    
     return (
         <div>
-            <MyContext.Provider value={ changeBackground  }>
+            <MySecondContext.Provider value={ changeBackground  }>
                 {children}
-            </MyContext.Provider>
+            </MySecondContext.Provider>
         </div>
     );
 };
 
-export { MyContext, MyContextProvider2 }
+export { MySecondContext , MyContextProvider2 }

@@ -22,7 +22,7 @@ img {
 .planetarium {
   width: 1000px;
   margin: 0 auto;
-  padding-top: 30px;
+  padding-top: 20px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -42,7 +42,7 @@ img {
   justify-content: center;
   align-items: center;
   margin-right: 30px;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
   transition: transform 0.40s;
   cursor: pointer;
 }
@@ -69,7 +69,7 @@ img {
   color: white;
 }
 .back-controller {
-  width: 1000px;
+  width: 1200px;
   display: flex;
   justify-content: flex-end;
   align-items: center;

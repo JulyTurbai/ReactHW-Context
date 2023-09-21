@@ -15,10 +15,9 @@ const MyContextProvider = ({ children }) => {
   
     return (
       <>
-      <MyContext.Provider value={ planets }>
-        {children}
-      </MyContext.Provider>
-
+        <MyContext.Provider value={ planets }>
+          {children}
+        </MyContext.Provider>
       </>
     );
   };
